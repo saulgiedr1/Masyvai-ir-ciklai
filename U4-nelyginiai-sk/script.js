@@ -1,10 +1,17 @@
 window.onload=function(){
     let pirmas =509;
     let antras =603;
+    let pirmas1=100;
+    let antras1=204;
+    
     const nelyginiai= nelyginiaiNuoiki(pirmas, antras);
+    const nelyginiai1= nelyginiaiNuoiki(pirmas1, antras1);
     gaunamasMasyvas(nelyginiai);
+    gaunamasMasyvas(nelyginiai1);
     let  suma = masyvoSuma(nelyginiai);
+    let  suma1 = masyvoSuma(nelyginiai1);
     console.log(suma)
+    console.log(suma1)
       
 }
 
@@ -17,10 +24,17 @@ function gaunamasMasyvas(ma) {
 function nelyginiaiNuoiki(a,b){
     
     const ma = [];
-    for( let i=a; i<=b; i += 2){
-        ma.push(i);
+    for( let i=a; i<=b; i ++){
+         if (arTainelyginis(i) ){
+        ma.push(i); 
+      
     }
+}
+
     return ma;
+}
+function arTainelyginis(x) {
+    return x % 2 !== 0;
 }
 function masyvoSuma(a){
     let suma=0;
