@@ -17,11 +17,9 @@ function masyvoSuma(a){
     return suma;
 
 }
-function masyvoVidurkis(b){
-    let vidurkis = 0;
-    for (let i = 0; i < b.length; i++){
-        vidurkis += b[i]/b.length;
-    }
-    return vidurkis;
+function masyvoVidurkis(a){     
+    
 
+
+    return masyvoSuma(a)/a.length;        
 }
