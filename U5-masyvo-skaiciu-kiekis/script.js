@@ -3,7 +3,7 @@
 
   let skaicius=0;
   let skaicius1=-55;
-  let skaicius2=62
+  let skaicius2=62;
   
   
 
