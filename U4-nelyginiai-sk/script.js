@@ -1,6 +1,6 @@
 window.onload=function(){
-    let pirmas =509;
-    let antras =603;
+    let pirmas =1;
+    let antras =20;
     let pirmas1=100;
     let antras1=204;
     
@@ -33,8 +33,8 @@ function nelyginiaiNuoiki(a,b){
 
     return ma;
 }
-function arTainelyginis(x) {
-    return x % 2 !== 0;
+function arTainelyginis(z) {
+    return z % 2 !== 0;
 }
 function masyvoSuma(a){
     let suma=0;
