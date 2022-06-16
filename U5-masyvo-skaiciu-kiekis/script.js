@@ -1,34 +1,54 @@
   
  window.onload=function(){
-  let skaicius=10;
 
-  let ivedamasSk=ivedamas(skaicius);
-
- 
-  const testinis = [45, 4, 9, 16, 25,14,77];
-  const didesnis = testinis.filter(didesniUz);
-
-  console.log(didesnis);
- 
- }   
+  let skaicius=0;
+  let skaicius1=-55;
+  let skaicius2=62
   
-    function ivedamas(b){      
-      {
-        console.log(b);
-      }
-      return b;
-    }
-    
-    function didesniUz(a){        
-      return  a > 10 //ivedamas(b);
+  
+
+
+  
+
+ 
+  const testinis = [ 35, 16, 55, 60, 77, 129, 22,3,5,44,8, -50 ,-55,-4]  ;
+  let suma=masyvoDalis(testinis,skaicius);
+  let suma1=masyvoDalis(testinis,skaicius1);
+  let suma2=masyvoDalis(testinis,skaicius2);
+  
+
+
+  console.log (suma);
+  console.log (suma1);
+  console.log (suma2);
+ 
+
+}
+function masyvoDalis(a,skaicius){
+     let suma=0;
+    for (let i = 0; i < a.length; i++){
+      if(arDaugiauUz(a[i],skaicius)){
+      suma += 1;
+       
+    }    
+  }
+  return suma;
+}
+function arDaugiauUz(c,skaicius){
+  return c > skaicius;
+
       
-      } 
+
+
+}
+  
+
     
      
       
-      
+    
 
     
   
   
-
+  
