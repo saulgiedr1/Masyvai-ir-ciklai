@@ -1,8 +1,8 @@
 window.onload=function(){
     let pirmas =1;
     let antras =20;
-    let pirmas1=100;
-    let antras1=204;
+    let pirmas1=150;
+    let antras1=220;
     
     const nelyginiai= nelyginiaiNuoiki(pirmas, antras);
     const nelyginiai1= nelyginiaiNuoiki(pirmas1, antras1);
