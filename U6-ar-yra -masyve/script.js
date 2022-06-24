@@ -1,7 +1,25 @@
 window.onload=function(){
 
-    const testinis = [ 35, 16, 55, 60, 77, 129, 22,3,5,44,8, -50 ,-55,-4];
-    let ieskomasSkaicius
+  let ieskomasSkaicius=11;
+  
+
+  const testinis = [5, 11, 35, 46, 65, 60, 77, 129, 22]  ;
+  let arYra=arYraMasyve(testinis, ieskomasSkaicius);
+
+console.log(arYra);
 
 }
+function arYraMasyve(a,b){
 
+  for (let i = 0; i < a.length; i++){
+           
+  if ( a[i] === b){
+    return true;
+  }   
+  else{
+    return false;
+  }
+  
+  }       
+
+}
