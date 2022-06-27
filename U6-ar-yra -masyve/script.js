@@ -10,16 +10,13 @@ console.log(arYra);
 
 }
 function arYraMasyve(a,b){
-
+  let arYra = false;
   for (let i = 0; i < a.length; i++){
            
-  if ( a[i] === b){
-    return true;
-  }   
-  else{
-    return false;
+    if ( a[i] === b){
+      return true;
+    }   
   }
-  
-  }       
+  return false;
 
 }
