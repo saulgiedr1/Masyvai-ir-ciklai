@@ -1,6 +1,6 @@
 window.onload=function(){
 
-  let ieskomasSkaicius=129;
+  let ieskomasSkaicius=159;
   let ieskomasSkaicius1=46;
   
 
